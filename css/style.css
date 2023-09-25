@@ -1,0 +1,133 @@
+*{ 
+    margin: 0;
+    padding: 0; 
+}
+body{
+     background-image: url('../res/t5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+   
+    height: 100%;
+}
+form{
+  
+     display: flex;
+   justify-content: center;
+   align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+  text-align: center;
+    width: 100%;
+   align-items: center;
+   background-color:  rgb(23, 23, 23);
+   border-radius: 20px;
+}
+li {
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+   
+}
+a , h2{
+     color: #fff;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size :20px; 
+    margin: 10px 0px;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-weight: 500;
+    
+}    
+    a:hover{
+        color:red;
+        overflow: hidden;
+        border: solid #fff 2px;
+        border-radius: 10px;
+
+    }
+
+
+fieldset {
+    height:400px ;
+    width: 300px;
+   border-radius: 10px;
+   }
+   form input {
+    margin: 5px;
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 10px;
+   }
+   textarea{
+    background-color: transparent;
+   }
+   select{
+    background-color: transparent;
+   }
+   label{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size :16px; 
+    font-weight: 700;
+    font-style: oblique;
+    color:#fff;
+   }
+   legend{
+    color:grey;
+    font-size :30px;
+
+   }
+   button{
+    background-color: transparent;
+    color:black; 
+    width: 50%;
+    font-size :16px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 5px;
+   }
+   button:hover {
+  
+   background-color: beige;
+    font-size: 900;
+   }
+   textarea:hover {
+        background-color: beige;
+         font-size: 900;
+        }
+   input:hover {
+    background-color: beige;
+     font-size: 900;
+    }
+    input:focus{
+        cursor: pointer;
+    }
+  
+   h2{
+    font-size: 40px;
+   }
+   .image {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+   
+   }
+   img{
+    padding: 20px;
+    margin-bottom: 20px;
+   }
+    a:hover{
+    transition: 0.3s;
+   transform: rotate(360deg);
+
+}
+footer{ 
+    background-color:  rgb(23, 23, 23); 
+}
